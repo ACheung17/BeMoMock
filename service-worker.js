@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BeMoMock/precache-manifest.aef8ad820c937b35d36a94379e92b063.js"
+  "/BeMoMock/precache-manifest.c0897442a8356839a44057ed8c44e277.js"
 );
 
 self.addEventListener('message', (event) => {
