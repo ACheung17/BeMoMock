@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/BeMoMock/static/js/main.641ec10b.chunk.js",
+    "main.js.map": "/BeMoMock/static/js/main.641ec10b.chunk.js.map",
+    "runtime-main.js": "/BeMoMock/static/js/runtime-main.e7ec8606.js",
+    "runtime-main.js.map": "/BeMoMock/static/js/runtime-main.e7ec8606.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/BeMoMock/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.519f4a90.chunk.js": "/BeMoMock/static/js/2.519f4a90.chunk.js",
+    "static/js/2.519f4a90.chunk.js.map": "/BeMoMock/static/js/2.519f4a90.chunk.js.map",
+    "index.html": "/BeMoMock/index.html",
+    "precache-manifest.d515eb6b3d97fa45a9ca1285e538c397.js": "/BeMoMock/precache-manifest.d515eb6b3d97fa45a9ca1285e538c397.js",
+    "service-worker.js": "/BeMoMock/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/BeMoMock/static/css/2.829c9cb5.chunk.css.map",
+    "static/js/2.519f4a90.chunk.js.LICENSE.txt": "/BeMoMock/static/js/2.519f4a90.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7ec8606.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.519f4a90.chunk.js",
+    "static/js/main.641ec10b.chunk.js"
+  ]
+}
