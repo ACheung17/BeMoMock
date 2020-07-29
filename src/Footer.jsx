@@ -8,11 +8,11 @@ function Footer() {
             <div className="copyright">
                 ©2013-2016 BeMo Academic Consulting Inc. All rights reserved.  
                 <a className="footer-link" href="http://www.cdainterview.com/disclaimer-privacy-policy.html"> Disclaimer & Privacy Policy</a> 
-                <a className="footer-link" href="#"> Contact Us</a>
+                <a className="footer-link" href="#/contactus"> Contact Us</a>
             </div>
             <div className="socials">
-            <a href="#" target="__blank" className="social"><FacebookIcon /></a>
-            <a href="#" target="__blank" className="social"><TwitterIcon /></a>
+            <a href="https://www.facebook.com/bemoacademicconsulting" target="__blank" className="social"><FacebookIcon /></a>
+            <a href="https://twitter.com/BeMo_AC" target="__blank" className="social"><TwitterIcon /></a>
             </div>
         </div>
         

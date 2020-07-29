@@ -16,10 +16,10 @@ function Navigation(props) {
                         <a className="nav-link" href="#" >Main<span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">How To Prepare</a>
+                        <a className="nav-link" href="https://cdainterview.com/how-to-prepare-for-cda-interview.html">How To Prepare</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">CDA Interview Questions</a>
+                        <a className="nav-link" href="https://cdainterview.com/sample-cda-interview-questions.html">CDA Interview Questions</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#/contactus">Contact Us</a>
