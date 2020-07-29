@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Footer from "./Footer";
 
 function Contact() {
     const [backendData, setBackendData] = useState([]);
@@ -35,7 +34,7 @@ function Contact() {
     }
 
     function handleSubmit(){
-        
+
     }
 
     function handleNameChange(event){

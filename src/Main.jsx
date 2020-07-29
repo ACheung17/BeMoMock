@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Navigation from './Navigation';
-import Footer from "./Footer";
 
 function Main() {
     const [backendData, setBackendData] = useState([]);

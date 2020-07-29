@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 import Main from "./Main";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import { BrowserRouter as Router, Route, Switch, HashRouter } from 'react-router-dom';
+import { Route, Switch, HashRouter } from 'react-router-dom';
 
 function App() {
   return (
