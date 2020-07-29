@@ -8,7 +8,7 @@ function Main() {
     
 
     useEffect(() => {
-        fetch("http://adacheungonline.com/wp-json/wp/v2/pagescontent")
+        fetch("https://adacheungonline.com/wp-json/wp/v2/pagescontent")
         .then(res => res.json())
         .then(data => setBackendData(data)); 
     }, []);
@@ -18,9 +18,9 @@ function Main() {
         if (backendData[i].title.rendered === "CDA Interview Guide"){
             title = backendData[i].title.rendered;
         content = backendData[i].content.rendered;
-        fetch("http://adacheungonline.com/index.php/wp-json/wp/v2/media/" + backendData[i].featured_media)
+        fetch("https://adacheungonline.com/index.php/wp-json/wp/v2/media/" + backendData[i].featured_media)
           .then(res => res.json())
-          .then(data => setPic("http://adacheungonline.com/wp-content/uploads/" + data.media_details.file));
+          .then(data => setPic("https://adacheungonline.com/wp-content/uploads/" + data.media_details.file));
       }
     }
     return content;

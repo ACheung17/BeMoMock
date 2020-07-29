@@ -10,7 +10,7 @@ function Contact() {
     const [instructions, setInstructions] = useState("");
 
     useEffect(() => {
-        fetch("http://adacheungonline.com/wp-json/wp/v2/pagescontent")
+        fetch("https://adacheungonline.com/wp-json/wp/v2/pagescontent")
         .then(res => res.json())
         .then(data => setBackendData(data)); 
         }, []);
@@ -20,9 +20,9 @@ function Contact() {
                 if (backendData[i].title.rendered === "Contact Us"){
                     content = backendData[i].content.rendered;
                     comment = backendData[i].acf.comment;
-                    fetch("http://adacheungonline.com/index.php/wp-json/wp/v2/media/" + backendData[i].featured_media)
+                    fetch("https://adacheungonline.com/index.php/wp-json/wp/v2/media/" + backendData[i].featured_media)
                     .then(res => res.json())
-                    .then(data => setPic("http://adacheungonline.com/wp-content/uploads/" + data.media_details.file));
+                    .then(data => setPic("https://adacheungonline.com/wp-content/uploads/" + data.media_details.file));
             }
         }
         return content;
