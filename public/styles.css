@@ -1,0 +1,91 @@
+.myNav{
+    padding-top: 0;
+    background-color:rgba(255, 255, 255, 0.90);
+}
+
+.nav-link {
+    font-size: 18px;
+}
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.navbar-nav a::after {
+    border-bottom: 1px solid black;
+}
+
+/* li.active > a {
+    border-bottom: 1px solid black;
+} */
+
+.main-img {
+    width: 100%;
+}
+
+.title{
+    border-bottom: 2px solid White;
+    color: white;
+    line-height: 60px;
+    letter-spacing: 10px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+}
+
+.page-content {
+    margin-top: 50px;
+}
+
+.footer {
+    background-color: #000066;
+    margin-top: 5%;
+    padding: 3% 5% 3.5%;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+    float: left;
+}
+
+.footer-link {
+    color: coral;
+}
+
+.social {
+    color: white;
+    float: right;
+    font-size: small;
+    padding: 0 5px;
+}
+
+.mycontainer {
+    width: 90%;
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form {
+    padding: 3% 5%;
+}
+
+.input-label {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.input-button {
+    background-color: lightgrey;
+    margin: 10px 20px;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    box-shadow: none;
+}
