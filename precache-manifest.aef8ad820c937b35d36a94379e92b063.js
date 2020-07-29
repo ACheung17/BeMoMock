@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "250bb47b403d52288eff055ea1dfa560",
+    "revision": "38432e60fa7c35d5c5712f4d017bc553",
     "url": "/BeMoMock/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/BeMoMock/static/js/2.519f4a90.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "125ab69ddb3ab84922e8",
-    "url": "/BeMoMock/static/js/main.641ec10b.chunk.js"
+    "revision": "834408270bdfad28f2a7",
+    "url": "/BeMoMock/static/js/main.d91e8259.chunk.js"
   },
   {
     "revision": "1984744c54271524865a",
